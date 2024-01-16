@@ -18,4 +18,4 @@ COPY . .
 USER node
 
 # Specify the default command to run on container start
-CMD [ "nodemon", "app.js" ]
+CMD [ "node", "app.js" ]
