@@ -5,7 +5,7 @@ const port = 3001;
 
 const makeRequest = async (req, res) => {
   const response = await axios.get(
-    "http://localhost:3000/microserviceonename?firstname=omri"
+    "http://107.22.38.115/microserviceonename?firstname=omri"
   );
   console.log(response.data);
 };
